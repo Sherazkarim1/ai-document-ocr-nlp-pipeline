@@ -1,4 +1,4 @@
-# 🤖 AI Document OCR & NLP Pipeline
+#  AI Document OCR & NLP Pipeline
 
 <div align="center">
 
@@ -12,13 +12,13 @@
 
 **Production-grade AI pipeline for extracting structured data from invoices, receipts, contracts, and scanned PDFs using OCR + LLM.**
 
-[🚀 Live Demo](#-quick-start) · [📖 API Docs](#-api-endpoints) · [💼 Hire Me on Upwork](https://www.upwork.com/freelancers/sherazkarim)
+[ Live Demo](#-quick-start) · [📖 API Docs](#-api-endpoints) · [ Hire Me on Upwork](https://www.upwork.com/freelancers/sherazkarim)
 
 </div>
 
 ---
 
-## 🎯 What This Project Does
+##  What This Project Does
 
 This pipeline automatically converts **unstructured documents** (PDFs, scanned images, photos) into **clean, structured JSON data** using:
 
@@ -32,22 +32,22 @@ This pipeline automatically converts **unstructured documents** (PDFs, scanned i
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 | Feature | Description |
 |---|---|
-| 🔍 **Multi-format OCR** | PDF, PNG, JPG, TIFF, BMP support |
-| 🤖 **AI-Powered Extraction** | Claude LLM understands context, not just regex patterns |
-| 🧠 **Auto Document Detection** | Automatically classifies invoices, receipts, contracts |
-| 📊 **Structured JSON Output** | Clean, normalized data ready for databases/ERP/APIs |
-| ⚡ **FastAPI REST API** | Production-ready endpoints with Swagger docs |
-| 🖥️ **Streamlit UI** | No-code drag-and-drop web interface |
-| 🐳 **Docker Ready** | One-command deployment anywhere |
-| 📦 **Batch Processing** | Process entire folders of documents at once |
+|  **Multi-format OCR** | PDF, PNG, JPG, TIFF, BMP support |
+|  **AI-Powered Extraction** | Claude LLM understands context, not just regex patterns |
+|  **Auto Document Detection** | Automatically classifies invoices, receipts, contracts |
+|  **Structured JSON Output** | Clean, normalized data ready for databases/ERP/APIs |
+|  **FastAPI REST API** | Production-ready endpoints with Swagger docs |
+|  **Streamlit UI** | No-code drag-and-drop web interface |
+|  **Docker Ready** | One-command deployment anywhere |
+|  **Batch Processing** | Process entire folders of documents at once |
 
----
 
-## 🏗️ Architecture
+
+##  Architecture
 
 ```
 Document (PDF/Image)
@@ -83,7 +83,7 @@ Document (PDF/Image)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option 1 — Docker (Recommended)
 
@@ -126,7 +126,7 @@ streamlit run src/app.py
 
 ---
 
-## 🐍 Python SDK Usage
+##  Python SDK Usage
 
 ### Single Document
 
@@ -163,7 +163,7 @@ results = batch_process("./invoices_folder/", doc_type="invoice")
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
 Start the API: `uvicorn src.api:app --reload`
 Swagger Docs: `http://localhost:8000/docs`
@@ -205,7 +205,7 @@ curl -X POST http://localhost:8000/process \
 
 ---
 
-## 📤 Output Format Examples
+## Output Format Examples
 
 ### Invoice Extraction
 ```json
@@ -244,7 +244,7 @@ curl -X POST http://localhost:8000/process \
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ai-document-ocr-nlp-pipeline/
@@ -265,7 +265,7 @@ ai-document-ocr-nlp-pipeline/
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 | Layer | Technology | Purpose |
 |---|---|---|
@@ -277,17 +277,17 @@ ai-document-ocr-nlp-pipeline/
 | Containerization | Docker + Compose | One-command deployment |
 | Testing | pytest | Unit & integration tests |
 
----
 
-## 🔑 Keywords & Use Cases
+
+##  Keywords & Use Cases
 
 > **OCR invoice extraction** · **PDF data extraction Python** · **AI document processing** · **NLP invoice parser** · **receipt OCR Python** · **contract data extraction** · **document AI pipeline** · **LLM document understanding** · **Tesseract OCR FastAPI** · **invoice automation Python** · **structured data extraction PDF** · **AI-powered OCR pipeline** · **document digitization AI** · **intelligent document processing IDP**
 
 **Industries served:** Finance & Accounting · Legal & Compliance · Healthcare · Logistics & Supply Chain · Real Estate · E-Commerce
 
----
 
-## 🔧 Customization
+
+##  Customization
 
 Add a new document type in 3 steps:
 
@@ -305,36 +305,32 @@ result = pipeline.process("statement.pdf", doc_type="bank_statement")
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pip install pytest
 pytest tests/ -v
 ```
 
----
-
-## 📄 License
+##  License
 
 MIT License — free to use, modify, and distribute.
 
----
 
-## 👨‍💻 About the Author
+##  About the Author
 
 **Sheraz Karim** — Top Rated AI Developer on Upwork with expertise in:
-- 🤖 Generative AI & LLM Applications
-- 🔍 RAG Pipelines & Vector Databases
-- 📄 OCR & Document Intelligence
-- ⚙️ AI Workflow Automation (n8n, Zapier)
-- ☁️ Cloud Deployment (AWS, Azure, GCP)
+-  Generative AI & LLM Applications
+-  RAG Pipelines & Vector Databases
+-  OCR & Document Intelligence
+-  AI Workflow Automation (n8n, Zapier)
+-  Cloud Deployment (AWS, Azure, GCP)
 
-💼 **[Hire me on Upwork](https://www.upwork.com/freelancers/sherazkarim)** for your next AI project.
+ **[Hire me on Upwork](https://www.upwork.com/freelancers/sherazkarim)** for your next AI project.
 
----
 
 <div align="center">
 
-⭐ **Star this repo if it helped you!** ⭐
+ **Star this repo if it helped you!** 
 
 </div>
