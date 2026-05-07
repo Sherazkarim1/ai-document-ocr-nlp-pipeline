@@ -326,7 +326,7 @@ MIT License — free to use, modify, and distribute.
 -  AI Workflow Automation (n8n, Zapier)
 -  Cloud Deployment (AWS, Azure, GCP)
 
- **[Hire me on Upwork](https://www.upwork.com/freelancers/sherazkarim)** for your next AI project.
+ **[Hire me on Upwork](https://www.upwork.com/freelancers/~0120e5107410edbd72?mp_source=share)** for your next AI project.
 
 
 <div align="center">
