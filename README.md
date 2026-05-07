@@ -12,7 +12,7 @@
 
 **Production-grade AI pipeline for extracting structured data from invoices, receipts, contracts, and scanned PDFs using OCR + LLM.**
 
-[ Live Demo](#-quick-start) · [ API Docs](#-api-endpoints) · [ Hire Me on Upwork](https://www.upwork.com/freelancers/sherazkarim)
+[ Live Demo](#-quick-start) · [ API Docs](#-api-endpoints) · [ Hire Me on Upwork](https://www.upwork.com/freelancers/~0120e5107410edbd72?mp_source=share)
 
 </div>
 
